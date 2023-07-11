@@ -1,0 +1,51 @@
+{
+    "name": "python-ds-extension-pack-test",
+    "displayName": "Python Data Science - test",
+    "description": "An extension pack for Python data scientists.",
+    "version": "0.0.1",
+    "publisher": "minsa110", // "publisher": "ms-toolsai",
+    // "author": {
+    //     "name": "Microsoft Corporation"
+    // },
+    "license": "MIT",
+    "icon": "ds-icon.png",
+    "homepage": "https://github.com/minsa110/vscode-python-ds", // "homepage": "https://github.com/minsa110/vscode-python-ds",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Microsoft/vscode-python-ds" // "url": "https://github.com/Microsoft/vscode-python-ds"
+    },
+    "bugs": {
+        "url": "https://github.com/Microsoft/vscode-python-ds" // "url": "https://github.com/Microsoft/vscode-python-ds"
+    },
+    "engines": {
+      "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Extension Packs",
+        "Data Science",
+        "Machine Learning",
+        "Notebooks",
+        "Visualization"
+    ],
+    "keywords": [
+        "datascience",
+        "jupyter",
+        "notebook",
+        "python",
+        "interactive"
+    ],
+    "extensionPack": [ 
+      "ms-toolsai.jupyter",
+      "ms-python.python",
+      "ms-toolsai.datawrangler",
+      "mechatroner.rainbow-csv",
+      "GrapeCity.gc-excelviewer",
+      "msrvida.vscode-sanddance",
+      "ms-vscode-remote.remote-ssh",
+      "GitHub.codespaces",
+      "Iterative.dvc",
+      "donjayamanne.python-environment-manager",
+      "github.copilot",
+      "visualstudioexptteam.vscodeintellicode"
+    ]
+}
